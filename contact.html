@@ -1,39 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - SHOES AND HEELS / THE GIFTING TREE</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - SHOES AND HEELS / THE GIFTING TREE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .contact-section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      color: #b31217;
+    }
+
+    .contact-info {
+      margin: 20px 0;
+      line-height: 1.8;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin: 15px 0;
+      padding: 12px 20px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+
+    iframe {
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 2px solid #b31217;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="store.html">Store Gallery</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Store Location</h2>
-            <iframe src="https://www.google.com/maps/place/SHOES+%26+HEELS/@17.3964603,78.370903,17.92z/data=!4m6!3m5!1s0x3bcb9561e003becb:0xfe778881213e12e5!8m2!3d17.395307!4d78.3734439!16s%2Fg%2F11qzcn8vqs?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </section>
-        <section>
-            <h2>Contact Form</h2>
-            <form action="mailto:saiyatin9@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" required></textarea><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="store.html">Store Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Visit Our Store</h2>
+      <div class="contact-info">
+        <strong>Address:</strong><br>
+        Plot Number 33, App to Road No 04, Alkapur Township,<br>
+        Neknampur, Manikonda, Hyderabad - 500089<br><br>
+
+        <strong>Phone:</strong><br>
+        <a href="tel:9989839161" style="color: #fff;">9989839161</a> / 
+        <a href="tel:7680839161" style="color: #fff;">7680839161</a><br><br>
+
+        <strong>Business Hours:</strong><br>
+        Open Everyday – 10:00 AM to 10:00 PM<br><br>
+
+        <a class="whatsapp-btn" href="https://wa.me/917680839161" target="_blank">
+          💬 Chat on WhatsApp
+        </a>
+      </div>
+
+      <h2>Google Maps Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.603804410843!2d78.37104767509555!3d17.395299483229607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9561e003becb%3A0xfe778881213e12e5!2sSHOES%20%26%20HEELS!5e0!3m2!1sen!2sin!4v1714413015935!5m2!1sen!2sin"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+  </main>
 </body>
 </html>
